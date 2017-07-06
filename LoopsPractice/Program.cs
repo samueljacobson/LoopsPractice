@@ -17,10 +17,29 @@ namespace LoopsPractice
             //Keywords break and continue
 
             //For loop
-            //for(intializer; condition; updater0
+            //Counting and iterarting
+            //for(intializer; condition; updater)
             //{
             //  Do something
             //}
+
+            for (int i = 15; i > 0; i--)
+            {
+                Console.WriteLine(i);
+            }
+
+            //int i;                  //to use i outside of loop
+            //for(i = 15; i> 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("After the loop has run, i now has the value of " + i);  //will display 0
+
+            //Count from 50 to 100
+            for (int i = 50; i<=100; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
