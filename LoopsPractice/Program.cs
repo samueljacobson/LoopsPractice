@@ -106,6 +106,16 @@ namespace LoopsPractice
             {
                 Console.WriteLine(name);
             }
+
+            //While
+            //Code will run while condition is met (i.e. TRUE - boolean)
+            Console.WriteLine("What is your first name?");
+            string firstName = Console.ReadLine();
+            while(firstName.ToUpper() == "DANIEL")
+            {
+                Console.WriteLine("Dude, you are amazing.");
+                break;
+            }
         }
     }
 }
