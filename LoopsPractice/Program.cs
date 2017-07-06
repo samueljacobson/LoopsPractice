@@ -101,21 +101,65 @@ namespace LoopsPractice
 
             //Create an array of 6 musicians
             //Using a foreach loop, print each musician's name
-            string[] musicians = { "Pink Floyd", "Riccardo Muti", "Marc-Andre Hamelin", "Roger Waters", "David Gilmour", "Philip Glass" };
-            foreach(string name in musicians)
-            {
-                Console.WriteLine(name);
-            }
+            //string[] musicians = { "Pink Floyd", "Riccardo Muti", "Marc-Andre Hamelin", "Roger Waters", "David Gilmour", "Philip Glass" };
+            //foreach(string name in musicians)
+            //{
+            //    Console.WriteLine(name);
+            //}
 
             //While
             //Code will run while condition is met (i.e. TRUE - boolean)
-            Console.WriteLine("What is your first name?");
-            string firstName = Console.ReadLine();
-            while(firstName.ToUpper() == "DANIEL")
+            //Console.WriteLine("What is your first name?");
+            //string firstName = Console.ReadLine();
+            //while(firstName.ToUpper() == "DANIEL")
+            //{
+            //    Console.WriteLine("Dude, you are amazing.");
+            //    break;
+            //}
+
+            //If user wants to continue playing game
+            //Console.WriteLine("Do you want to play the game? YES/NO");
+            //string playAgain = Console.ReadLine();  //can also put .ToUpper after Console.ReadLine()
+            //while(playAgain.ToUpper() == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+
+            //Do-while
+            //Used when you want a chunk of code to run AT LEAST once, but repeat only if the While condition is met
+            //do
+            //{
+            //Do something
+            //}
+            //while(condition);
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Great game!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine().ToUpper();
+            //}
+            //while (playAgain == "YES");
+
+            //Ask the user for the class that they would like to add to their GPA calculation
+            //Ask the user for the letter grade for the class
+            //Ask the user if they have another class they would like to add to GPA
+            //Using a do-while loop, repeat the code if the user says "yes"
+
+            string anotherClass;
+            do
             {
-                Console.WriteLine("Dude, you are amazing.");
-                break;
+            Console.WriteLine("Which class would you like to add to your GPA calculation?");
+            string classAdd = Console.ReadLine();
+            Console.WriteLine("What was your grade in " + classAdd + "?");
+            char classGrade = char.Parse(Console.ReadLine());
+            Console.WriteLine("Do you have another class you'd like to add? YES/NO");
+            anotherClass = Console.ReadLine().ToUpper();
             }
+            while (anotherClass == "YES");
         }
     }
 }
