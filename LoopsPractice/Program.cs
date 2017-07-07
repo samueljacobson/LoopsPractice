@@ -296,7 +296,36 @@ namespace LoopsPractice
             //    Console.WriteLine();
             //}
 
-            //Create array of favorite movies, print out each unless starts with a vowel
+            ////Create array of favorite movies, print out each unless starts with a vowel
+            //string[] faveMovies = { "Star Wars", "Anchorman", "Avatar", "Serenity", "Super Troopers" };
+            //foreach(string movie in faveMovies)
+            //{
+            //    if(movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+            //}
+
 
         }
     }
