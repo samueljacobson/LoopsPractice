@@ -235,16 +235,16 @@ namespace LoopsPractice
             //        Console.WriteLine(i);
             //    }
             //}
-            
+
             ////Additional practice
             ////Write a console application that prints out hello world 10 times to the console
-            //for(int i = 1; i <= 10; i++)
+            //for (int i = 1; i <= 10; i++)
             //{
             //    Console.WriteLine("Hello world");
             //}
 
             ////Write a console application and print out the numbers 1-100
-            //for(int i = 1; i <=100; i++)
+            //for (int i = 1; i <= 100; i++)
             //{
             //    Console.WriteLine(i);
             //}
@@ -256,7 +256,7 @@ namespace LoopsPractice
             //    Console.WriteLine(message[i]);
             //}
 
-            //foreach(char elements in message)
+            //foreach (char elements in message)
             //{
             //    Console.WriteLine(elements);
             //}
@@ -265,24 +265,39 @@ namespace LoopsPractice
             //Console.WriteLine("Please enter a word.");
             //string words = Console.ReadLine();
             //int vowelCount = 0;
-            //foreach(char letter in words)
+            //foreach (char letter in words)
             //{
-            //    if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+            //    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
             //    {
             //        vowelCount += 1;
             //    }
             //}
-            //Console.WriteLine(vowelCount);  //outside loop
+            //Console.WriteLine(vowelCount);  ////outside of loop
 
-            //Ask user to enter a number and how many times it should be repeated
-            Console.WriteLine("Please enter a word.");
-            string word = Console.ReadLine();
-            Console.WriteLine("How many times would you like " + word + " repeated?");
-            int repeat = int.Parse(Console.ReadLine());
-            for(int i = 1; i <= repeat; i++)
-            {
-                Console.WriteLine(word);
-            }
+            ////Ask user to enter a number and how many times it should be repeated
+            //Console.WriteLine("Please enter a word.");
+            //string word = Console.ReadLine();
+            //Console.WriteLine("How many times would you like " + word + " repeated?");
+            //int repeat = int.Parse(Console.ReadLine());
+            //for(int i = 1; i <= repeat; i++)
+            //{
+            //    Console.WriteLine(word);
+            //}
+
+            //Print a 5 x 5 multiplication table using nested loops
+            //int multNum = 1;
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for(int j = 1; j <=5; j++)
+            //    {
+            //        Console.Write(multNum * j + " ");
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}
+
+            //Create array of favorite movies, print out each unless starts with a vowel
+
         }
     }
 }
