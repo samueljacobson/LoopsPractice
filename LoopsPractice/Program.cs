@@ -326,7 +326,17 @@ namespace LoopsPractice
             //    }
             //}
 
+            //Ask user for an int, if divisible by 3 write "you won", if not "you win". Keep asking until they win.
+            Console.WriteLine("Please enter an integer.");
+            int userNum = int.Parse(Console.ReadLine());
 
+            while(userNum % 3 != 0)
+            {
+                Console.WriteLine("You lost!");
+                Console.WriteLine("Please enter another number.");
+                userNum = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("You won!");
         }
     }
 }
